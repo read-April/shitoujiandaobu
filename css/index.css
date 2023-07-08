@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    margin: 30px 0;
+    border: 2px solid black;
+}
+
+.box {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    width: 800px;
+    margin-left: 100px;
+    border: 2px solid aqua;
+}
+
+.list {
+    height: 400px;
+    list-style: none;
+    display: flex;
+    margin: auto 0;
+}
+
+.list>li {
+    width: 300px;
+    height: 400px;
+    border: 2px solid bisque;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.list>li:nth-child(1),
+.list>li:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.list>li:nth-child(1) h5,
+.list>li:nth-child(3) h5 {
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.list>li:nth-child(1) img,
+.list>li:nth-child(3) img {
+    margin: 30px auto;
+    width: 250px;
+}
+
+.list>li:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+}
+
+.playerRecords {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.playerRecords>li {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 80px;
+
+}
+
+.playerRecords>li>p,
+.playerRecords>li>i {
+    margin: 20px 3px;
+    font-size: 20px;
+}
+
+.playerRecords>li>i {
+    font-style: normal;
+}
+
+.pcRecords {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.pcRecords>li {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 80px;
+
+}
+
+.pcRecords>li>p,
+.pcRecords>li>i {
+    margin: 20px 3px;
+    font-size: 20px;
+}
+
+.pcRecords>li>i {
+    font-style: normal;
+}
+
+.start {
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.select {
+    margin-top: 40px;
+    display: none;
+    width: 280px;
+}
+
+.select p {
+    text-align: center;
+}
+
+.selectImg {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.selectImg li img {
+    margin: 10px;
+    width: 60px;
+}
+
+
+
+.resultVictory {
+    display: none;
+    width: 300px;
+}
+
+.resultLose {
+    display: none;
+}
+
+.resultAlike {
+    display: none;
+}
+
+.resultVictory h3,
+.resultLose h3,
+.resultAlike h3 {
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.nextgame,
+.quitgame {
+    margin: 150px 23px;
+    width: 100px;
+    height: 50px;
+}
+
+#pcImg,
+#wjImg {
+    width: 250px;
+    height: 179px;
+}
+
+
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 button {
+    width: 130px;
+    height: 60px;
+    margin: 20px 0;
+    font-size: 20px;
+}

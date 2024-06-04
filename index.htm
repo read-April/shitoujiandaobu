@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石头剪刀布</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="box">
+            <h1>快来石头剪刀布拯救GGbond吧</h1>
+        </div>
+        <ul class="list">
+            <li>
+                <h5>靓仔本人</h5>
+                <img id="wjImg" src="./img/bu.jpg" alt="">
+                <ul class="playerRecords">
+                    <li>
+                        <p>胜:</p>
+                        <i id="wjVictory"></i>
+                    </li>
+                    <li>
+                        <p>负:</p>
+                        <i id="wjLose"></i>
+                    </li>
+                    <li>
+                        <p>平:</p>
+                        <i id="wjAlike"></i>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <button class="start">开始游戏</button>
+                <div class="select">
+                    <p>选择你的选项</p>
+                    <ul class="selectImg">
+                        <li>
+                            <img id="bu" src="./img/bu.jpg" alt="">
+                        </li>
+                        <li>
+                            <img id="jiandao" src="./img/jiandao.jpg" alt="">
+                        </li>
+                        <li>
+                            <img id="shitou" src="./img/shitou.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="result">
+                    <div class="resultVictory">
+                        <h3>胜利了</h3>
+                        <button class="nextgame">继续游戏</button>
+                        <button class="quitgame">退出游戏</button>
+                    </div>
+                    <div class="resultLose">
+                        <h3>你输了</h3>
+                        <button class="nextgame">继续游戏</button>
+                        <button class="quitgame">退出游戏</button>
+                    </div>
+                    <div class="resultAlike">
+                        <h3>半斤八两，平手~</h3>
+                        <button class="nextgame">继续游戏</button>
+                        <button class="quitgame">退出游戏</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h5>电脑笨蛋</h5>
+                <img id="pcImg" src="./img/bu.jpg" alt="">
+                <ul class="pcRecords">
+                    <li>
+                        <p>胜:</p>
+                        <i id="pcVictory"></i>
+                    </li>
+                    <li>
+                        <p>负:</p>
+                        <i id="pcLose"></i>
+                    </li>
+                    <li>
+                        <p>平:</p>
+                        <i id="pcAlike"></i>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="box2">
+        <button id="sheng">百分百胜</button>
+        <button id="bai">百分百败</button>
+        <button id="kongzhi">控制胜率</button>
+        <div class="shuru">
+            <p>请输入你想要了胜率(输入1-9整数)：<br>例如1成胜率 2成胜率....10成胜率</p>
+            <input type="number"><br>
+            <span>你现在的胜率是<i id="shenglv"></i>成</span>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb_top">
+            <img src="./img/ggbond3.jpg" alt="">
+            <h3 class="zlyc">再来一次吧</h3>
+        </div>
+    </div>
+    <div class="ggbond">
+        <img src="./img/ggbond2.jpg" alt="">
+    </div>
+    <div class="yxgz">
+        <h5>游戏规则</h5>
+        <p>胜利：<br>赢五次即可拯救GGbond</p>
+        <p>失败：<br>输十次</p>
+    </div>
+</body>
+
+</html>
